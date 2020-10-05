@@ -39,7 +39,7 @@ app.get('/about', (req, res) => {
 
 app.get('/help', (req, res) => {
     res.render('help', {
-        message: 'Help message', 
+        message: 'Any errors or suggestions please create an issue here: https://github.com/fatimaavilesfa/node-weather/issues', 
         title: 'Help page',
         name: 'Fatima Aviles'
     })
